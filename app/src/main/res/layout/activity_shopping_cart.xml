@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/backtohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Details:"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/orderDetailsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deliveryTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orderDetailsTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Delivery Time: Not Selected"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/chooseDeliveryTimeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#371F3E"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Choose Delivery Time"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/placeOrderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#371F3E"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="Place Order"
+            android:layout_marginBottom="26dp"/>
+    </LinearLayout>
+
+</LinearLayout>

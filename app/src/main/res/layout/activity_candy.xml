@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/backtohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candy Shop"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:id="@+id/Sweets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#371F3E"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Sweets"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/Extras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#371F3E"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Extras"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/requiredquantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Required"
+        android:inputType="text"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColorHint="#888888"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="#4F76B83D"
+        android:layout_marginBottom="8dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <Button
+        android:id="@+id/Shoppingcart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shopping Cart"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:background="#4CAF50"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/Cancelorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Order"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:background="#F44336"
+        android:layout_marginTop="24dp" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+
